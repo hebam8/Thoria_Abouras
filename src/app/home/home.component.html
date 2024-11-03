@@ -1,0 +1,101 @@
+<header class="vh-md-100" id="home">
+  <div class="row header py-4  "  *ngIf="!loader">
+    <div class="col-md-4 shado-main img-animate my-sm-4 h-75">
+   <img  class="w-100 " src="assets/tho.jpg" alt="">
+    </div>
+    <div class="col-md-7 offset-md-1  text-center d-flex align-items-center ">
+      <div class="shado-light p-4">
+        <h4>Hello I am <span class="second-color"> Thoria AboRaas</span></h4>
+        <h4>I Architect</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio error cumque illo molestias neque voluptatibus recusandae corporis. Dolorem sunt iusto id obcaecati cumque dolor, suscipit libero dicta architecto odio ad!Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eveniet dicta quas aliquid, quis saepe, quaerat molestiae, unde ut aliquam amet. Aspernatur.</p>
+      </div>
+
+    </div>
+
+    <!-- <div class="header-icon position-relative d-flex align-items-center justify-content-center bottom-50 vh-md-100">
+      <a href="#skills"><i class="fas fa-angle-double-down fa-2x second-color "></i></a>
+    </div> -->
+
+  </div>
+
+</header>
+
+
+<section id="skills" class=""  *ngIf="!loader">
+  <h2 class="shado-main p-3 text-center my-4">Skills</h2>
+  <div class="container-fluid mt-4 pb4 shado-light" >
+    <div class="row skilles-container align-items-center justify-content-center p-4 ">
+
+      <div class="col-md-4 skill d-flex align-items-center justify-content-center">
+        <div class="logo-position ">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50" class="mb-1">
+            <path d="M 11 1 C 10.636719 1 10.304688 1.199219 10.125 1.515625 L 5.414063 10 L 21.75 10 L 31.570313 1 Z M 33.230469 2.195313 L 23.71875 10.90625 L 44 23.8125 L 44.382813 23.570313 Z M 7.402344 12 L 16.371094 14.929688 L 19.566406 12 Z M 23 12.824219 L 23 17.09375 L 36.804688 21.609375 Z M 21 13.402344 L 18.550781 15.640625 L 21 16.441406 Z M 16.859375 17.191406 L 8.34375 25 L 16.859375 32.808594 L 21 31.453125 L 21 18.546875 Z M 23 19.199219 L 23 30.800781 L 40.753906 25 Z M 44 26.1875 L 23.71875 39.09375 L 33.230469 47.808594 L 44.382813 26.429688 Z M 36.804688 28.390625 L 23 32.90625 L 23 37.175781 Z M 21 33.558594 L 18.550781 34.359375 L 21 36.597656 Z M 16.371094 35.070313 L 7.402344 38 L 19.566406 38 Z M 5.414063 40 L 10.125 48.484375 C 10.304688 48.800781 10.636719 49 11 49 L 31.570313 49 L 21.75 40 Z"></path>
+            </svg>
+          <p class="text-positin">3D-MAX</p>
+        </div>
+
+      </div>
+
+      <div class="col-md-4 skill d-flex align-items-center justify-content-center my-3">
+        <div class="logo-position ">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50" class="mb-1">
+            <path d="M 6 4 C 4.9 4 4 4.9 4 6 L 4 44 C 4 45.1 4.9 46 6 46 L 44 46 C 45.1 46 46 45.1 46 44 L 46 6 C 46 4.9 45.1 4 44 4 L 6 4 z M 18.580078 14 C 20.570078 14 22.260625 14.480313 23.390625 15.570312 C 24.410625 16.590312 24.949219 18.160781 24.949219 20.050781 C 24.949219 22.030781 24.470625 23.370938 23.640625 24.460938 C 22.490625 26.060938 20.470781 26.859375 18.550781 26.859375 C 18.140781 26.859375 17.820938 26.860078 17.460938 26.830078 L 17.460938 36 L 15 36 L 15 14.419922 C 15.99 14.159922 17.140078 14 18.580078 14 z M 18.980469 15.640625 C 18.400469 15.640625 17.919609 15.700781 17.599609 15.800781 L 17.599609 24.410156 C 17.889609 24.440156 18.179844 24.470703 18.589844 24.470703 C 20.989844 24.470703 22.619141 22.870078 22.619141 19.830078 C 22.619141 17.620078 21.730469 15.640625 18.980469 15.640625 z M 31.710938 20 C 32.980938 20 33.900312 20.390781 34.570312 20.800781 L 33.900391 22.669922 C 33.270391 22.249922 32.61 21.960938 31.75 21.960938 C 30.39 21.960938 29.689453 22.919219 29.689453 23.949219 C 29.689453 24.979219 30.089688 25.589141 31.679688 26.619141 C 33.539687 27.779141 35 29.219141 35 31.369141 C 35 34.489141 32.810391 36 30.150391 36 C 28.990391 36 27.7 35.649609 27 35.099609 L 27.630859 33.240234 C 28.200859 33.590234 29.190703 34.039062 30.220703 34.039062 C 31.650703 34.039062 32.580078 33.169062 32.580078 31.789062 C 32.580078 30.599062 32.149531 29.770234 30.519531 28.740234 C 28.429531 27.420234 27.300781 26.070547 27.300781 24.310547 C 27.300781 21.770547 29.220938 20 31.710938 20 z"></path>
+        </svg>
+          <p class="text-positin">Photoshop</p>
+        </div>
+
+      </div>
+
+      <div class="col-md-4 skill d-flex align-items-center justify-content-center">
+        <div class="logo-position ">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50" class="mb-1">
+            <path d="M 23.8125 3.007813 L 6.898438 34.386719 L 19.292969 29.074219 Z M 26.1875 3.007813 L 29.929688 24.515625 L 36.292969 21.785156 Z M 25 7.84375 L 21.484375 28.132813 L 28.042969 25.324219 Z M 37.246094 23.550781 L 30.28125 26.535156 L 32.449219 39 L 45.59375 39 Z M 28.390625 27.347656 L 21.078125 30.484375 L 19.597656 39 L 30.421875 39 Z M 18.882813 31.421875 L 10.101563 35.1875 L 10.421875 39 L 17.566406 39 Z M 8.164063 36.015625 L 5.367188 37.214844 L 4.40625 39 L 8.414063 39 Z M 4.53125 41 L 9.03125 46.398438 L 8.578125 41 Z M 10.589844 41 L 11.101563 47.167969 L 16.03125 47.871094 L 17.222656 41 Z M 32.796875 41 L 33.988281 47.871094 L 39.171875 47.128906 L 38.152344 41 Z M 40.179688 41 L 41.0625 46.285156 L 45.46875 41 Z"></path>
+            </svg>
+          <p class="text-positin">Auto Cad</p>
+        </div>
+
+      </div>
+
+      <div class="col-md-4 skill d-flex align-items-center justify-content-center">
+        <div class="logo-position ">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50" class="mb-1">
+            <path d="M25,2C12.317,2,2,12.317,2,25s10.317,23,23,23s23-10.317,23-23S37.683,2,25,2z M24.109,39.954 c-6.781,0-11.176-5.086-11.176-12.782c0-9.942,6.888-17.128,14.639-17.128c4.69,0,7.486,2.361,7.486,5.573 c0,3.313-2.395,5.658-4.436,5.658c-0.508,0-0.764-0.249-0.764-0.661c0-0.917,1.478-2.295,1.478-4.896 c0-2.192-1.338-3.569-3.53-3.569c-4.69,0-10.029,5.541-10.029,15.124c0,5.657,2.809,9.753,7.346,9.753 c3.924,0,7.314-2.816,9.277-6.797c0.174-0.35,0.341-0.51,0.531-0.51c0.275,0,0.538,0.236,0.538,0.75 C35.467,32.793,31.306,39.954,24.109,39.954z"></path>
+            </svg>
+          <p class="text-positin">Canva</p>
+        </div>
+
+      </div>
+
+      <div class="col-md-4 skill d-flex align-items-center justify-content-center">
+        <div class="logo-position ">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50" class="mb-1">
+            <path d="M 31.480469 1.949219 L 3.859375 5.851563 L 7.410156 28.953125 L 13.546875 48.242188 L 42.8125 39.472656 L 46.0625 13.257813 Z M 13.398438 37 L 11.898438 32 L 20.898438 30.199219 L 23.300781 34.597656 Z M 22.5 26.800781 L 20.101563 22.800781 L 11.800781 24.5 L 10 20.398438 L 26.199219 17.601563 L 32 24.699219 Z M 31.953125 15.308594 L 26.277344 9.132813 L 6.839844 12.089844 L 6.140625 7.550781 L 30.921875 4.050781 L 42.660156 13.152344 Z"></path>
+            </svg>
+          <p class="text-positin">Sketch Up</p>
+        </div>
+
+      </div>
+      <div class="col-md-4 skill d-flex align-items-center justify-content-center">
+        <div class="logo-position ">
+          <img src="assets/revit.png" alt="" class="image-size">
+          <p class="text-positin">Microsoft</p>
+        </div>
+
+      </div>
+      <!-- <div class="col-md-4 skill">
+        <div class="logo-position">
+          <img src="../../assets/revit.png" alt="" class="w-100 svg-size">
+          <p class="text-positin">Revit</p>
+        </div>
+
+      </div> -->
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+

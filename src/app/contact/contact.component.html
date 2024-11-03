@@ -1,0 +1,49 @@
+<div *ngIf="!loader">
+  <h2 class="shado-main p-3 text-center my-4 mx-auto">Get in touch</h2>
+
+
+  <div class="row mb-4 d-flex justify-content-center align-items-center ">
+    <div class="col-md-3 mt-3">
+   <a class="text-light fs-2 shado-light p-3 d-block text-center" href="https://wa.me/201021369150" target="_blank"><i class="fa-solid fa-phone fs-4"> </i> Contact me</a>
+    </div>
+    <div class="col-md-3 offset-md-2 mt-3">
+      <a  class="text-light fs-2 shado-light p-3 d-block text-center" href="mailto:Thori.Aboras@gmail.com" target="_blank"> <i class="fa-solid fa-envelope fs-4 text-light"></i> Eamil me </a>
+      </div>
+
+  </div>
+
+<section class="container-fluid ">
+<div class="row d-flex justify-content-center align-items-center">
+  <div class="col-md-4 my-5">
+ <img src="assets/me3mari.jpg" alt="" srcset="" class="w-100">
+  </div>
+
+  <div class="col-md-6 offset-md-1 mt-5">
+    <form [formGroup]="Form" (submit)="send()">
+      <div class="mb-3">
+
+        <input  formControlName="from_name" type="text" class="form-control bg-color bodr-col" placeholder="Name">
+
+      </div>
+      <div class="mb-3">
+
+        <input type="email" formControlName="from_email"  class="form-control bg-color bodr-col" placeholder="Email">
+
+      </div>
+      <div class="mb-3">
+
+        <input type="text" formControlName="subject"  class="form-control bg-color bodr-col" placeholder="Subject">
+
+      </div>
+      <div class="mb-3">
+
+        <textarea type="text" formControlName="message"  class="form-control bg-color bodr-col" placeholder="Message" rows="5" cols="10"></textarea>
+
+      </div>
+      <button type="submit" class="btn shado-light btn-style">Send</button>
+    </form>
+  </div>
+</div>
+</section>
+
+</div>

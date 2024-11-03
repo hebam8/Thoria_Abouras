@@ -1,0 +1,22 @@
+span{
+  color: aliceblue !important;
+}
+@media (max-width: 998px) {
+  .width-size {
+    display: none !important;
+
+    }
+    .navbar-nav{
+      text-align: center;
+    }
+    .navbar-toggler span{
+      fill: white;
+
+    }
+    .color-colasp{
+      color: white !important;
+    }
+  /* .header-icon a{
+    display: none;
+  } */
+}
